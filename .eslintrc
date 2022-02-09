@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2020": true
+  },
+  "extends": ["airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "no-nested-ternary": 0,
+    "import/prefer-default-export": 0
+  }
+}

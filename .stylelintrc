@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order"
+  ],
+  "rules": {
+    "string-quotes": "single",
+    "function-url-quotes": "never",
+    "font-family-name-quotes": "always-unless-keyword",
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number"
+  },
+  "declaration-no-important": true
+}
