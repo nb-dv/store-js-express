@@ -6,9 +6,11 @@
   "rules": {
     "string-quotes": "single",
     "function-url-quotes": "never",
-    "font-family-name-quotes": "always-unless-keyword",
     "color-function-notation": "legacy",
-    "alpha-value-notation": "number"
-  },
-  "declaration-no-important": true
+    "alpha-value-notation": "number",
+    "declaration-no-important": true,
+    "keyframes-name-pattern": 0,
+    "font-family-name-quotes": "always-where-required",
+    "selector-class-pattern": null
+  }
 }
